@@ -1,0 +1,2 @@
+# DiscomfortIndexSystem
+TH02で不快指数を出すシステム
