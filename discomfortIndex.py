@@ -37,6 +37,7 @@ def main():
         hum = th02.readHum()
         #print('tempureture: %.2f , humidity: %.2f' % (temp, hum))
         di = th02.outputDI(temp, hum)
+        #print('不快指数: %.2f \n' % di)
         if di < 65:
             led.blue()
         elif di < 70:
@@ -51,7 +52,6 @@ def main():
             led.red()
         else:
             white()
-        #print('不快指数: %.2f \n' % di)
         #d.initUI(temp, hum, di)
         time.sleep(0.1)
 
