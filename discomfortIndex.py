@@ -51,7 +51,7 @@ def main():
         elif di < 100:
             led.red()
         else:
-            white()
+            led.white()
         #d.initUI(temp, hum, di)
         time.sleep(0.1)
 
